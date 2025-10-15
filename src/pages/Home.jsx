@@ -5,6 +5,7 @@ import Features from "../components/Features";
 import DownloadExtension from "../components/DownloadExtension";
 import FAQ from "../components/FAQ";
 import CTA from "../components/CTA";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <DownloadExtension />
       <FAQ />
       <CTA />
+      <Footer />
     </>
   );
 };
